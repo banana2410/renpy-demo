@@ -21,22 +21,6 @@ Or from the command line:
 path/to/renpy.exe path/to/renpy-demo
 ```
 
-## Building distributables
-
-Windows only:
-```
-path/to/renpy.exe path/to/renpy-sdk/launcher distribute path/to/renpy-demo --package pc
-```
-
-Mac only:
-```
-path/to/renpy.exe path/to/renpy-sdk/launcher distribute path/to/renpy-demo --package mac
-```
-
-Output goes to an `autumn_in_pinewood-<version>-dists/` folder next to the project.
-
-Note: building Mac distributions on Windows may show a warning about permission information — the zip is still created.
-
 ## Controls
 
 - **J** — open/close the journal (tracks personality, relationships, and memories)
