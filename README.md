@@ -9,18 +9,6 @@ Pre-built versions are in `autumn_in_pinewood-1.0-dists/`:
 - **Windows** — open `autumn_in_pinewood-1.0-pc/` and run `autumn_in_pinewood.exe`
 - **Mac** — open `autumn_in_pinewood.app`
 
-## Running from source
-
-1. Download the [Ren'Py SDK](https://www.renpy.org/latest.html) (8.5.2+)
-2. Open the Ren'Py launcher and set your projects directory to the parent folder containing this repo
-3. Select "Autumn in Pinewood" and hit Launch
-
-Or from the command line:
-
-```
-path/to/renpy.exe path/to/renpy-demo
-```
-
 ## Controls
 
 - **J** — open/close the journal (tracks personality, relationships, and memories)
