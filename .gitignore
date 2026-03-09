@@ -1,0 +1,29 @@
+# Compiled Ren'Py files (regenerated on launch)
+*.rpyc
+*.rpymc
+*.rpyb
+*.bak
+
+# Runtime logs
+log.txt
+errors.txt
+traceback.txt
+lint.txt
+
+# Cache and saves
+game/cache/
+game/saves/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build output
+*-dists/
