@@ -58,7 +58,7 @@ label festival_sam_encounter:
 
 label festival_topics:
 
-    menu (festival_topics_asked):
+    menu:
 
         set festival_topics_asked
 

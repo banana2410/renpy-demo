@@ -141,7 +141,7 @@ label sam_conversation:
 
 label sam_topics:
 
-    menu (sam_topics_asked):
+    menu:
 
         set sam_topics_asked
 

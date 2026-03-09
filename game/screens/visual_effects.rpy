@@ -18,7 +18,7 @@ transform leaf_fall(start_x, duration, sway):
         ease (duration - 2.0) alpha 0.7
         ease 1.0 alpha 0.0
     parallel:
-        linear duration ypos 750
+        linear duration ypos config.screen_height
     parallel:
         ease (duration * 0.5) xpos (start_x + sway)
         ease (duration * 0.5) xpos (start_x - sway * 0.3)
@@ -40,7 +40,7 @@ screen leaf_overlay():
         (0.55, 13.0, 60, "leaf_particle"),
         (0.90, 9.0, -40, "leaf_particle_2"),
     ]):
-        add params[3] at leaf_fall(int(params[0] * 1280), params[1], params[2]):
+        add params[3] at leaf_fall(int(params[0] * config.screen_width), params[1], params[2]):
             pass
 
 
@@ -48,18 +48,18 @@ screen vignette_overlay():
     zorder 2
     if not (main_menu or renpy.get_screen("game_menu")):
         add Solid("#000000"):
-            ysize 200
-            ypos 520
+            ysize int(config.screen_height * 0.278)
+            ypos int(config.screen_height * 0.722)
             alpha 0.35
         add Solid("#000000"):
-            xsize 80
-            ysize 720
+            xsize int(config.screen_width * 0.0625)
+            ysize config.screen_height
             xpos 0
             alpha 0.12
         add Solid("#000000"):
-            xsize 80
-            ysize 720
-            xpos 1200
+            xsize int(config.screen_width * 0.0625)
+            ysize config.screen_height
+            xpos int(config.screen_width * 0.9375)
             alpha 0.12
 
 

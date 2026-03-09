@@ -2,6 +2,13 @@
 
 A short visual novel built with [Ren'Py](https://www.renpy.org/). You arrive at a café in a small mountain town on an autumn afternoon and meet a couple of locals. Choices shape your personality and relationships, leading to one of 7 endings across two acts.
 
+## Playing the game
+
+Pre-built versions are in `autumn_in_pinewood-1.0-dists/`:
+
+- **Windows** — open `autumn_in_pinewood-1.0-pc/` and run `autumn_in_pinewood.exe`
+- **Mac** — open `autumn_in_pinewood.app`
+
 ## Running from source
 
 1. Download the [Ren'Py SDK](https://www.renpy.org/latest.html) (8.5.2+)
